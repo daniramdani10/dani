@@ -1,6 +1,11 @@
 import React from "react";
 import "./home.css";
-import { FaFigma, FaGithubSquare, FaIdBadge, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithubSquare,
+  FaIdBadge,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa";
 import aaa from "../../assets/cv-2.pdf";
 
 const Home = () => {
@@ -9,9 +14,27 @@ const Home = () => {
       <div className="container">
         <div className="wrapper">
           <div className="social">
-            <FaGithubSquare className="icon" />
-            <FaLinkedin className="icon" />
-            <FaFigma className="icon" />
+            <a
+              href="https://github.com/daniramdani10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithubSquare className="icon" />
+            </a>
+            <a
+              href="https://www.instagram.com/daniramdani10/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram className="icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dani-ramdani10/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="icon" />
+            </a>
           </div>
           <div className="summary">
             <div className="title">Front-end Developer</div>
@@ -23,7 +46,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               download="cv-dani"
-              className="btn"
+              className="btn "
             >
               SEE MY RESUME <FaIdBadge />
             </a>

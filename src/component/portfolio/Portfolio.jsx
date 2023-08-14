@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div id="portfolio">
       <div className="title flex-center">Personal Portfolio</div>
       <div className="app">
         <div className="container flex-column">
@@ -16,10 +16,22 @@ const Portfolio = () => {
             </div>
             <div className="btn build">REACT</div>
             <div className="row">
-              <div className="btn">
+              <a
+                href="https://github.com/daniramdani10/dani"
+                target="_blank"
+                rel="noreferrer"
+                className="btn flex-center"
+              >
                 CODE <FaGithub />
-              </div>
-              <div className="btn">DEMO</div>
+              </a>
+              <a
+                href="https://dani-porto.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn flex-center"
+              >
+                DEMO
+              </a>
             </div>
           </div>
           <div className="project">
@@ -32,10 +44,13 @@ const Portfolio = () => {
             <div className="row">
               <div className="btn build">REACT</div>
               <div className="btn build">BOOTSTRAP</div>
+              <div className="btn build">JSON PLACEHOLDER</div>
             </div>
             <div className="row">
-              <div className="btn">CODE</div>
-              <div className="btn">DEMO</div>
+              <div className="btn flex-center">
+                CODE <FaGithub />
+              </div>
+              <div className="btn flex-center">DEMO</div>
             </div>
           </div>
         </div>

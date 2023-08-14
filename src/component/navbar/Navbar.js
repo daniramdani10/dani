@@ -1,6 +1,5 @@
 import "./navbar.css";
 import {
-  FaCode,
   FaEnvelopeSquare,
   FaHome,
   FaInfoCircle,
@@ -19,10 +18,6 @@ const Navbar = () => {
         <a href="#about">
           <FaInfoCircle className="icons" />
           About
-        </a>
-        <a href="#skills">
-          <FaCode className="icons" />
-          Skills
         </a>
         <a href="#portfolio">
           <FaTasks className="icons" />
