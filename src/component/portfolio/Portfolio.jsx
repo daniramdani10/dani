@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div className="desc-porto">
               My personal portfolio website to introduce myself and my expertise
             </div>
-            <div className="btn build">REACT</div>
+            <div className="build">REACT</div>
             <div className="row">
               <a
                 href="https://github.com/daniramdani10/dani"
@@ -42,15 +42,22 @@ const Portfolio = () => {
               count the number of customer orders
             </div>
             <div className="row">
-              <div className="btn build">REACT</div>
-              <div className="btn build">BOOTSTRAP</div>
-              <div className="btn build">JSON PLACEHOLDER</div>
+              <div className="build ">REACT</div>
+              <div className="build">BOOTSTRAP</div>
+              <div className="build txt-build">JSON PLACEHOLDER</div>
             </div>
             <div className="row">
-              <div className="btn flex-center">
+              <a
+                href="https://github.com/daniramdani10/kasir"
+                target="_blank"
+                rel="noreferrer"
+                className="btn flex-center"
+              >
                 CODE <FaGithub />
-              </div>
-              <div className="btn flex-center">DEMO</div>
+              </a>
+              <a href="#nodemo" className="btn flex-center">
+                DEMO
+              </a>
             </div>
           </div>
         </div>

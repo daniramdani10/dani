@@ -18,6 +18,9 @@
 .p-b-100 {
   padding-bottom: 100px;
 }
+.p-l-100 {
+  padding-left: 90px;
+}
 .icon-location {
   font-size: 2rem;
   border-radius: 50px;

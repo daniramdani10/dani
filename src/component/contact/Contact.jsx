@@ -6,14 +6,14 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="app">
-        <div className="container-contact">
+        <div className="container-contact p-l-100">
           <div className="title">Contact</div>
           <div className="desc">Don't be shy! Hit me up! 👇</div>
         </div>
       </div>
 
       <div className="app">
-        <div className="container-contact p-b-100">
+        <div className="container-contact p-b-100 p-l-100">
           <div className="row space-between">
             <div className="location">
               <div className="icon-location">
