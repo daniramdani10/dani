@@ -1,0 +1,116 @@
+.container {
+  /* background-color: tomato; */
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: white;
+  width: auto;
+  height: 450px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.247);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.img-project-kasir {
+  background: url(../../assets/profile.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.247);
+
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.img-project-portofolio {
+  background: url(../../assets/personal-portfolio.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.247);
+
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.title-porto {
+  font-size: 1.5rem;
+  margin: 1rem 0 0 0;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+.desc-porto {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #464646;
+  width: 350px;
+}
+.btn {
+  border: 1px solid #2f2f2f;
+  padding: 0.5rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.build {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: #2f2f2f;
+  border: none;
+  box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.247);
+  margin: 1rem;
+  border-radius: 0;
+  width: 100px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.build:hover {
+  color: #2f2f2f;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 3rem;
+}
+/*====================BREAKPOINTS====================*/
+/* for large devices  */
+@media screen and (max-width: 992px) {
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* for medium devices  */
+@media screen and (max-width: 768px) {
+}
+/* for small devices  */
+@media screen and (max-width: 576px) {
+}
+/* for smaller devices  */
+@media screen and (max-width: 350px) {
+}

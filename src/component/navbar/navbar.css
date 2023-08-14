@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  background: url(../../assets/logo.svg);
+  width: 160px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icons {
+  display: none;
+}
+
+/*====================BREAKPOINTS====================*/
+/* for large devices  */
+@media screen and (max-width: 992px) {
+}
+/* for medium devices  */
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+  .logo {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  .icons {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
+/* for small devices  */
+@media screen and (max-width: 576px) {
+  .icons {
+    font-size: 1rem;
+  }
+  .nav {
+    gap: 1.5rem;
+  }
+}
+/* for smaller devices  */
+@media screen and (max-width: 350px) {
+}
